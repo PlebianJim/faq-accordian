@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
+    caret-color: transparent;
 }
 
 body {
@@ -43,6 +44,7 @@ body {
     width: 550px;
     border-radius: 15px;
     background-color: hsl(0, 0%, 100%);
+    row-gap: 10%;
 }
 
 .container-top {
@@ -50,6 +52,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+    margin-right: 350px;
 }
 
 .container-h1 {
@@ -66,7 +69,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #eee;
+    background-color: transparent;
     color: black;
     cursor: pointer;
     width: 500px;
@@ -77,8 +80,9 @@ body {
     font-weight: 800;
 }
 
-.active, .accordian:hover {
-    background-color: #ccc;
+.active,
+.accordian:hover {
+    color: hsl(293, 72%, 42%) !important;
 }
 
 .panel {
