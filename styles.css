@@ -52,21 +52,29 @@ body {
     justify-content: flex-start;
 }
 
+.container-h1 {
+    font-size: 50px;
+}
+
 .accordian-container {
     display: flex;
     flex-direction: column;
+    row-gap: 20px;
 }
 
 .accordian {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #eee;
-    color: #444;
+    color: black;
     cursor: pointer;
-    padding: 18px;
-    width: 100%;
+    width: 500px;
     text-align: left;
     border: none;
     outline: none;
     transition: 0.4s;
+    font-weight: 800;
 }
 
 .active, .accordian:hover {
@@ -74,8 +82,8 @@ body {
 }
 
 .panel {
-    padding: 0 18px;
     background-color: white;
     display: none;
     overflow: hidden;
+    width: 500px;
 }
