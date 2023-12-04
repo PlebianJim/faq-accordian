@@ -76,7 +76,6 @@ body {
     text-align: left;
     border: none;
     outline: none;
-    transition: 0.4s;
     font-weight: 800;
 }
 
@@ -90,4 +89,32 @@ body {
     display: none;
     overflow: hidden;
     width: 500px;
+}
+
+@media (max-width: 584px) {
+    .container {
+        width: 350px;
+    }
+
+    .container-top {
+        width: 350px;
+        margin-right: -25px;
+    }
+
+    .accordian-container {
+        width: 300px;
+    }
+
+    .accordian {
+        width: 300px;
+    }
+
+    .accordian-p {
+        width: 300px;
+    }
+
+    .panel {
+        width: 300px;
+        font-size: 12px;
+    }
 }
